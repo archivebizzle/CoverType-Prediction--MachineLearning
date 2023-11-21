@@ -27,7 +27,7 @@ As many supervised learning algorithms can be used like Logistic Regression and 
 
 Now we were ready to create our model using RandomForestClassifier with some basic parameters like:- 
 1. n_estimators – number of trees in forest.
-2. class_weight – weights associated with classes (n_samples / (n_classes * np.bincount(y))) for “balanced” mode.
+2. class_weight – weights associated with classes (n_samples / (n_classes * np.bincount(y))) for “balanced” MODE.
 3. n_jobs - number of jobs to run in parallel.
 4. random_state - controls both the randomness of the bootstrapping of the samples used when building trees (if bootstrap=True) and the sampling of the features to consider   when looking for the best split at each node (if max_features < n_features).
 5. bootstrap – ensures whether bootstrap samples are used when building trees and if False, then the whole dataset is used to build each tree.
